@@ -1,1 +1,1 @@
-我想日你
+css:使用max-width/min-width/height之类设计，不要固定高度，善用clamp(）
