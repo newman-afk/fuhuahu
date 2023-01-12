@@ -412,4 +412,25 @@ export const data = [
       },
     ],
   },
+  {
+    id: 4,
+    folderName: "React",
+    individualData: [
+      {
+        id: 1,
+        name: "Portfolio",
+        link: "https://fuhuahu-portfolio.netlify.app",
+      },
+      {
+        id: 2,
+        name: "Weather-app",
+        link: "https://fuhuahu-weather-app.netlify.app",
+      },
+      {
+        id: 3,
+        name: "ECommerce",
+        link: "https://fuhuahu-ecommerce.netlify.app",
+      },
+    ],
+  },
 ];
