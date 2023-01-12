@@ -163,7 +163,7 @@ export const data = [
   },
   {
     id: 3,
-    folderName: "practice3",
+    folderName: "Css Practice",
     individualData: [
       {
         id: 1,
