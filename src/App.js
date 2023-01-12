@@ -1,27 +1,19 @@
 import "./App.css";
-import { data } from "./data";
+import Works from "./components/Works/Works";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+import Notes from "./components/Notes/Notes";
 
 function App() {
-  console.log(data);
   return (
-    <>
-      {data.map((item) => {
-        return (
-          <div key={Math.random()}>
-            <h1>{item.folderName}</h1>
-            {item.individualData.map((web) => {
-              return (
-                <div className="card" key={Math.random()}>
-                  <a target="_blank" rel="noreferrer" href={web.link}>
-                    {web.name}
-                  </a>
-                </div>
-              );
-            })}
-          </div>
-        );
-      })}
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Works />}></Route>
+          <Route path="/notes" element={<Notes />}></Route>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
