@@ -29,6 +29,7 @@
 @media (max-width: 40em) {
   .navbar {
     height: 3em;
+    position: fixed;
   }
   .navbar-open {
     display: block;
@@ -39,7 +40,6 @@
   .navbar-mobile {
     aspect-ratio: 9/16;
     width: 50%;
-    position: fixed;
     top: 0;
     right: 0;
     justify-content: center;
