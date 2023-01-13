@@ -1,24 +1,2 @@
-
-爱你哟
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 css:使用max-width/min-width/height之类设计，不要固定高度，善用clamp(）
+      font-size 使用rem, padding&margin使用em
