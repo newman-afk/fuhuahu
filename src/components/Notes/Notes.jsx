@@ -14,7 +14,7 @@ const Notes = () => {
     fetchNotes();
   }, []);
   return (
-    <div className="notes">
+    <div className="notes container">
       <h1>Notes</h1>
       <p>{notes}</p>
     </div>

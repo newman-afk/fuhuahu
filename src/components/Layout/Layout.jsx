@@ -24,8 +24,12 @@ const Layout = () => {
         ></FontAwesomeIcon>
 
         <div className="navbar-link-container">
-          <Link to="/">Home</Link>
-          <Link to="/notes">Notes</Link>
+          <Link to="/" onClick={sidebarToggle}>
+            Works
+          </Link>
+          <Link to="/notes" onClick={sidebarToggle}>
+            Notes
+          </Link>
         </div>
       </nav>
 
