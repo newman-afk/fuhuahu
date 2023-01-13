@@ -30,6 +30,7 @@
   .navbar {
     height: 3em;
     position: fixed;
+    width: 100vw;
   }
   .navbar-open {
     display: block;
