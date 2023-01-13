@@ -10,7 +10,7 @@ const Layout = () => {
   }
   return (
     <>
-      <nav className="navbar container navbar-mobile">
+      <nav className="navbar container">
         <FontAwesomeIcon
           className="navbar-open"
           icon={faBars}
