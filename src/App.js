@@ -3,6 +3,7 @@ import Works from "./components/Works/Works";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Notes from "./components/Notes/Notes";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

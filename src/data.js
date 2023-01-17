@@ -332,8 +332,8 @@ export const data = [
       },
       {
         id: 34,
-        name: "PasswordStrengthBackround",
-        link: "https://fuhuahu-password-strength-backround.netlify.app/",
+        name: "PasswordStrengthBackground",
+        link: "https://fuhuahu-password-strength-background.netlify.app/",
       },
       {
         id: 35,
@@ -357,7 +357,7 @@ export const data = [
       },
       {
         id: 39,
-        name: "Random-Image_Feed",
+        name: "RandomImageFeed",
         link: "https://fuhuahu-random-image-feed.netlify.app/",
       },
       {
@@ -420,6 +420,7 @@ export const data = [
         id: 1,
         name: "Portfolio",
         link: "https://fuhuahu-portfolio.netlify.app",
+        img: "./assets/webPageScreenshot/portfolio",
       },
       {
         id: 2,

@@ -1,4 +1,10 @@
-.works {
-  margin-top: 4em;
-  margin-inline: 2em;
+.link {
+  text-decoration: none;
+  color: pink;
+}
+.webImg {
+  aspect-ratio: 16/9;
+}
+.webText {
+  word-wrap: normal;
 }
