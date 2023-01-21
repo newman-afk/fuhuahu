@@ -1,3 +1,22 @@
+export const topic = [
+  "React",
+  "Javascript",
+  "Css",
+  "Scss",
+  "Html",
+  "Netlify",
+  "Sanity",
+  "Essay",
+];
+export const topic2 = [
+  "FullStack",
+  "React",
+  "Javascript",
+  "Css",
+  "Scss",
+  "BootStrap",
+];
+
 export const data = [
   {
     id: 1,
@@ -409,28 +428,6 @@ export const data = [
         id: 49,
         name: "VerticalSlider",
         link: "https://fuhuahu-vertical-slider.netlify.app/",
-      },
-    ],
-  },
-  {
-    id: 4,
-    folderName: "React",
-    individualData: [
-      {
-        id: 1,
-        name: "Portfolio",
-        link: "https://fuhuahu-portfolio.netlify.app",
-        img: "./assets/webPageScreenshot/portfolio",
-      },
-      {
-        id: 2,
-        name: "Weather-app",
-        link: "https://fuhuahu-weather-app.netlify.app",
-      },
-      {
-        id: 3,
-        name: "ECommerce",
-        link: "https://fuhuahu-ecommerce.netlify.app",
       },
     ],
   },
