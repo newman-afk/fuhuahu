@@ -10,7 +10,6 @@ const Notes = () => {
   useEffect(() => {
     client.fetch(`*[_type == 'notes']`).then((data) => {
       setNotes(data);
-      console.log(data);
     });
   }, []);
   const handleOnClick = (article) => {

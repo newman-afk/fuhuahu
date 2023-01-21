@@ -7,12 +7,10 @@ const Works = () => {
   useEffect(() => {
     client.fetch(`*[_type == 'webPage']`).then((data) => {
       setPage(data);
-      console.log(data);
     });
   }, []);
   return (
     <>
-      {console.log(process.env.REACT_APP_SANITY_PROJECT_ID)}
       {topic2.map((name) => {
         return (
           <div className="container text-center mb-5" key={name}>
